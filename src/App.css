@@ -7,3 +7,33 @@
 .navitem {
   margin: 0rem 1.5rem 0rem 1rem;
 }
+
+.searchBar {
+  width:20rem;
+  height:40px;
+  border-radius:1.5rem; 
+  margin-top: 1rem;
+}
+
+
+.navBtn {
+  background-color: goldenrod;
+  display: block;
+  margin-left: 1rem;
+}
+
+
+
+@media(max-width: 765px) {
+.searchBar {
+  /* display: none; */
+  width:10rem;
+  margin-top: .5rem;
+
+}
+.navBtn {
+  margin-left: .3rem;
+}
+
+
+}

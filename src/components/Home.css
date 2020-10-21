@@ -1,0 +1,33 @@
+.Tiles {
+    margin-top: 4rem;
+    display: block;
+}
+.Name {
+    font-size: 34px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.Institue {
+    margin-top: .5rem;
+    font-size: 18px;
+}
+.skills {
+    /* list-style: none; */
+    display: flex;
+}
+.nameOfSkill {
+    margin-right: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .ProfilePic {
+        width: 64px;
+        height: 64px;
+    }
+    .Profile-info {
+        padding-left: 2.5rem;
+    }
+    .nameOfSkill {
+        font-size: 15px;
+    }
+}

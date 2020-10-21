@@ -11,9 +11,9 @@ const Header = (props) => {
       <Navbar style={{backgroundColor:'#2d2c2c',color:'white !important'}} dark expand="md">
         <NavbarBrand  href="/"><img src="logo.PNG" width="170" height="40" /></NavbarBrand>
         <FormGroup >
-        <Input type="email" name="email" id="exampleEmail" placeholder="Search" style={{width:'20rem',height:'40px',borderRadius:'1.5rem',}} />
+        <Input className='searchBar' type="email" name="email" id="exampleEmail" placeholder="Search" />
       </FormGroup>
-      <Button>Submit</Button>
+      <Button className='navBtn'>Search</Button>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -28,6 +28,7 @@ const Header = (props) => {
                 <img src='me.png' style={{borderRadius:'2.5rem',height:'1.5rem'}}/> ME
               </DropdownToggle>
               <DropdownMenu right>
+                  
                 <DropdownItem>
                   My Profile
                 </DropdownItem>
