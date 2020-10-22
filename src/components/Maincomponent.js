@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './Home'
+import Myprofile from './Myprofile'
 import Skills from './Skills'
 
 class Main extends Component {
@@ -9,7 +10,8 @@ class Main extends Component {
             <div>
             <Header />
             {/* <Home /> */}
-            <Skills />
+            {/* <Skills /> */}
+            <Myprofile />
             </div>
         )
     }
