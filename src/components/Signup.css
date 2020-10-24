@@ -1,0 +1,40 @@
+.right {
+    background-color: #AED6F1 ; 
+}
+/* .left {
+    background-color: black;
+} */
+.bg {
+    position: fixed;
+    margin-top: 13rem;
+    margin-left: 10rem; 
+    /* height: 25rem; */
+     width: 500px;
+}
+input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #707070;
+    width: 24rem;
+    background-color: #AED6F1 ;
+  }
+  input:focus {
+    border-color: green
+  }
+  ::placeholder {
+      color: black;
+  }
+  .loginBtn {
+      margin-top: 2rem;
+      width: 10rem;
+      border-radius: 25px;
+      color: goldenrod;
+      background-color: black;
+      font-size: larger;
+      margin-bottom: 8.6rem;
+  }
+  @media only screen and (max-width: 600px) {
+      .left {
+          display: none;
+      }
+  }

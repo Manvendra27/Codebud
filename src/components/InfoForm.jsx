@@ -57,7 +57,7 @@ export class InfoForm extends Component {
                             <h3>Domain</h3><br/>
                             <div className='row'>
                                 <div className='col-sm-6'>
-                                <label>Major:</label>
+                                <label>Major<span style={{color:'red'}}>*</span>:</label>
                                 <input className='domainInput' name='major' type='text' placeholder='' style={{marginLeft:'1rem'}}></input>
                                 </div>
                                 <div className='col-sm-6'>
@@ -94,14 +94,27 @@ export class InfoForm extends Component {
                                 <div className='row Projects'>
                                     <div className='col-sm-12'>
                                     <h3>Projects</h3>
-                                    <label>Project Title </label>
+                                    <label>Project Title 1</label>
                                     <input className='ProjectTilte'></input><br/>
-                                    <label>Project Summary</label>
+                                    <label >Project Summary</label>
                                     <input className='ProjectSummary'></input>
-
+                                    <label>Project Title 2 </label>
+                                    <input className='ProjectTilte'></input><br/>
+                                    <label >Project Summary</label>
+                                    <input className='ProjectSummary'></input>
+                                    <label>Project Title 3 </label>
+                                    <input className='ProjectTilte'></input><br/>
+                                    <label >Project Summary</label>
+                                    <input className='ProjectSummary'></input>
                                     </div>
                                 </div>
-                                <button type="submit" value="Submit">Submit</button>
+                                <div className='row' style={{textAlign:'center', marginTop:'3rem'}}>
+                                  <div className='col-sm-12'>
+                                  <button className='submitBtn' type="submit" value="Submit">Submit</button>  
+                                  </div>
+                                
+                                </div>
+                                
                         </form>
                     </div>
                 </div>

@@ -42,6 +42,21 @@ input{
       margin-top: 1rem;
   }
   .ProjectTilte {
-    margin: 1rem 0rem 2rem 2rem;
-    
+    margin: 1rem 0rem 2rem 4.7rem;
+  }
+  .ProjectSummary {
+      margin-left: 2rem;
+      width: 55rem;
+      height: 10rem;
+    border-width: 1px 1px 2px;
+    border-color: #707070;
+  }
+  .submitBtn {
+      width: 10rem;
+      font-size: larger;
+      color: white;
+      background-color: goldenrod;
+      border-radius: 25px;
+      cursor: auto;
+      margin-bottom: 4rem;
   }
