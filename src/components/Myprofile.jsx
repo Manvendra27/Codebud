@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
+import * as GrIcons from 'react-icons/gr';
+import * as FaIcons from 'react-icons/fa';
+import * as MdIcons from 'react-icons/md';
 import './Myprofile.css'
 export class Myprofile extends Component {
     render() {
         return (
             <div className='container-fluid'>
                 <div className='row'>
-                    <div className='col-sm-3'>
+                    <div className='col-sm-12 col-lg-3'>
                         <img className='ProfileImg' height='128px' width='128px' src='ProfilePic.png' alt='Profile Picture'></img>
                     </div>
-                    <div className='col-sm-1 vl'></div>
-                    <div className='col-sm-8'>
+                    <div className='col-sm-12 col-lg-1 vl'></div>
+                    <div className='col-sm-12 col-lg-8'>
                         <div className='row'>
-                            <div className='col-sm-12'>
+                            <div className='col-sm-12 col-lg-6'>
                                 <h1 className='Name'>Manvendra Singh</h1><br/>
                                 <label>Email </label>
                                 <h5>manven2712@gmail.com</h5><br/>
@@ -19,12 +22,25 @@ export class Myprofile extends Component {
                                 <h5>CSE</h5><br/>
                                 <label>Role</label>
                                 <h5>Student</h5><br/>
-                                <hr />
+                                
+                            </div>
+                            <div className='col-sm-12 col-lg-6 '>
+                                <div className='Social-links'>
+                                <button className='InstaBtn'><GrIcons.GrInstagram/><span style={{marginLeft:'.5rem'}}>InstaGram</span></button>
+                                <button className='GitBtn'><GrIcons.GrGithub/><span style={{marginLeft:'.5rem'}}>Github</span></button>
+                                <button className='WABtn'><FaIcons.FaWhatsapp/><span style={{marginLeft:'.5rem'}}>Whatsapp</span></button >
+                                <button className='GmailBtn'><MdIcons.MdEmail/><span style={{marginLeft:'.5rem'}}>Gmail</span></button>
+                            </div>
                             </div>
                         </div>
                         <div className='row'>
+                                    <div className='col-sm-12'>
+                                      <hr/>  
+                                    </div>
+                                </div>
+                        <div className='row'>
                             <div className='col-sm-12'>
-                                <h2 style={{textDecoration:'underline'}}>Domain :</h2><br/>
+                                <h2>Domain :</h2><br/>
                                 <div className='row'>
                                     <div className='col-sm-6'>
                                         <label>Major<span style={{color:'blue'}}>*</span></label>
@@ -68,11 +84,7 @@ export class Myprofile extends Component {
                                         <hr/>
                                     </div>
                                 </div>
-                                <div className='row'>
-                                    <div className='col-sm-12'>
-                                        
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

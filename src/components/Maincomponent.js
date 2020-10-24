@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './Home'
 import Myprofile from './Myprofile'
+import InfoForm from './InfoForm'
 import Skills from './Skills'
 
 class Main extends Component {
@@ -11,7 +12,8 @@ class Main extends Component {
             <Header />
             {/* <Home /> */}
             {/* <Skills /> */}
-            <Myprofile />
+            {/* <Myprofile /> */}
+            <InfoForm />
             </div>
         )
     }

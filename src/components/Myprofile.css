@@ -23,3 +23,68 @@ li {
     height:30rem;
     margin-top: 5rem;
 }
+.Social-links {
+    margin-left: 9rem;
+}
+
+.InstaBtn {
+    margin-top: 7rem;
+    
+    color: black;
+    border: 1px solid white;
+    /* box-shadow: 2px 2px 5px; */
+    cursor: pointer;
+    width: 220px;
+    padding: .5rem;
+    font-size: larger;
+    border-radius: 23px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.GitBtn {
+    margin-top: 1rem;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 5px black; */
+    width: 220px;
+    padding: .5rem;
+    font-size: larger;
+    border-radius: 23px;
+    background-color: black;
+}
+.WABtn {
+    margin-top: 1rem;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 5px black; */
+    width: 220px;
+    padding: .5rem;
+    font-size: larger;
+    border-radius: 23px;
+    background-color: #25d366;
+}
+.GmailBtn {
+    margin-top: 1rem;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 5px black; */
+    width: 220px;
+    padding: .5rem;
+    font-size: larger;
+    border-radius: 23px;
+    background-color: #B23121;
+}
+@media only screen and (max-width: 600px) {
+    .vl {
+        display: none;
+    }
+    .Social-links {
+        margin-left: 1rem;
+    }
+}

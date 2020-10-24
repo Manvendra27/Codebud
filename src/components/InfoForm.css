@@ -1,0 +1,47 @@
+.formHeader {
+    text-align: center;
+    margin-top: 4rem;
+}
+input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #707070;
+    width: 24rem;
+    
+  }
+  input:focus {
+    border-color: green
+  }
+  label {
+      font-size: larger;
+  }
+
+  .language {
+      width: 15rem;
+      margin-top: 1.5rem;
+      
+
+  }
+  .delBtn {
+      margin-left: .5rem;
+      border: none;
+      background-color: white;
+      font-size: 25px;
+  }
+
+  .addBtn {
+      margin-left: 1.4rem;
+      border: none;
+      background-color: white;
+      font-size: 35px;
+  }
+  .languageSelect {
+      text-align: center;
+  }
+  .Projects {
+      margin-top: 1rem;
+  }
+  .ProjectTilte {
+    margin: 1rem 0rem 2rem 2rem;
+    
+  }
