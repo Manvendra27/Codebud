@@ -1,5 +1,5 @@
 .right {
-    background-color: #AED6F1 ; 
+    background-color: #333333  ; 
 }
 /* .left {
     background-color: black;
@@ -7,22 +7,23 @@
 .bg {
     position: fixed;
     margin-top: 13rem;
-    margin-left: 10rem; 
+    margin-left: 6rem; 
     /* height: 25rem; */
      width: 500px;
 }
-input{
+.input{
     outline: 0;
     border-width: 0 0 2px;
     border-color: #707070;
     width: 24rem;
-    background-color: #AED6F1 ;
+    background-color: #333333;
+    
   }
   input:focus {
     border-color: green
   }
   ::placeholder {
-      color: black;
+      color: white;
   }
   .loginBtn {
       margin-top: 2rem;

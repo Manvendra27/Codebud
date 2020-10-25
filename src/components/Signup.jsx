@@ -20,7 +20,7 @@ export class Signup extends Component {
               <div className='row '>
                   <div className='col-sm-12 title' style={{textAlign:'center',marginTop:'6rem'}}>
                       <img className='avatar' src='logo.PNG' alt='logo' />
-                      <h2 className="titleHeader" style={{marginTop:'1rem'}}>Register Yourself</h2>
+                      <h2 className="titleHeader" style={{marginTop:'1rem',color:'white'}}>Register Yourself</h2>
                       </div>
                       <div className='row'>
                           <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'9rem',marginTop:'2rem'}}>

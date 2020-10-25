@@ -10,12 +10,12 @@ class Main extends Component {
     render() {
         return(
             <div>
-            {/* <Header /> */}
+            <Header />
             {/* <Home /> */}
             {/* <Skills /> */}
             {/* <Myprofile /> */}
-            {/* <InfoForm /> */}
-            <Signup />
+            <InfoForm />
+            {/* <Signup /> */}
             </div>
         )
     }

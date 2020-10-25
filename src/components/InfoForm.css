@@ -2,13 +2,14 @@
     text-align: center;
     margin-top: 4rem;
 }
-input{
+input {
     outline: 0;
     border-width: 0 0 2px;
     border-color: #707070;
-    width: 24rem;
+    width: 24rem; 
     
   }
+
   input:focus {
     border-color: green
   }
@@ -59,4 +60,7 @@ input{
       border-radius: 25px;
       cursor: auto;
       margin-bottom: 4rem;
+  }
+  @media only screen and (max-width: 600px) {
+      
   }
