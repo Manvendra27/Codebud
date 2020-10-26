@@ -5,6 +5,7 @@ import "react-step-progress-bar/styles.css";
 import * as FcIcons from 'react-icons/fc'
 import * as AiIcons from 'react-icons/ai'
 import * as RiIcons from 'react-icons/ri'
+import {Link} from 'react-router-dom'
 
 export class Password extends Component {
     render() {
@@ -54,7 +55,7 @@ export class Password extends Component {
                           
                           <div className='row'>
                               <div className='col-sm-12' style={{textAlign:'center'}}>
-                              <button className='passBtn'>Next</button>
+                               <Link to='/college'> <button className='passBtn'>Next</button></Link>
                               </div>
                           </div>
                             

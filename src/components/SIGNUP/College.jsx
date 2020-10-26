@@ -5,6 +5,7 @@ import * as FcIcons from 'react-icons/fc'
 import * as AiIcons from 'react-icons/ai'
 import * as RiIcons from 'react-icons/ri'
 import './College.css'
+import { Link } from 'react-router-dom'
 
 export class College extends Component {
     render() {
@@ -54,7 +55,7 @@ export class College extends Component {
                           <input name='role' type='number' className='input' placeholder='Role' style={{marginTop:'3rem'}}></input><br/>
                           <div className='row'>
                               <div className='col-sm-12' style={{textAlign:'center'}}>
-                              <button className='loginBtn'>Next</button>
+                              <Link to='/login'><button className='loginBtn'>Next</button></Link>
                               </div>
                           </div>
                             

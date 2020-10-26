@@ -5,7 +5,7 @@ import "react-step-progress-bar/styles.css";
 import * as FcIcons from 'react-icons/fc'
 import * as AiIcons from 'react-icons/ai'
 import * as RiIcons from 'react-icons/ri'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export class Signup extends Component {
     render() {
@@ -55,7 +55,7 @@ export class Signup extends Component {
                           <input name='mobile' type='number' className='input' placeholder='Mobile No.' style={{marginTop:'3rem'}}></input><br/>
                           <div className='row'>
                               <div className='col-sm-12' style={{textAlign:'center'}}>
-                              <button className='loginBtn'>Next</button>
+                              <Link to='/password'><button className='loginBtn'>Next</button></Link>
                               </div>
                           </div>
                             
