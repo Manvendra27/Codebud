@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import './Signup.css'
+import './Password.css'
 import { ProgressBar, Step } from "react-step-progress-bar";
 import "react-step-progress-bar/styles.css";
 import * as FcIcons from 'react-icons/fc'
-import * as GrIcons from 'react-icons/gr'
+import * as AiIcons from 'react-icons/ai'
 import * as RiIcons from 'react-icons/ri'
-// import {Link} from 'react-router-dom'
 
-export class Signup extends Component {
+export class Password extends Component {
     render() {
         return (
             <div className='container-fluid'>
@@ -25,22 +24,22 @@ export class Signup extends Component {
                       <div className='row'>
                           <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'9rem',marginTop:'2rem'}}>
                       <ProgressBar
-                        percent={0}
+                        percent={50}
                         width={450}
                         filledBackground="goldenrod">
                         <Step transition="scale">
                         {({ accomplished }) => (
-                            <GrIcons.GrDocumentText color={'blue'} size={25}/>
+                            <AiIcons.AiOutlineMail color={'white'} size={25}/>
                         )}
                         </Step>
                         <Step transition="scale">
                         {({ accomplished }) => (
-                            <RiIcons.RiLockPasswordFill  color={'black'} size={25}/>
+                            <RiIcons.RiLockPasswordFill  color={'white'} size={25}/>
                         )}
                         </Step>
                         <Step transition="scale">
                         {({ accomplished }) => (
-                            <FcIcons.FcDepartment size={30}/>
+                            <FcIcons.FcDepartment color={'white'} size={30}/>
                         )}
                         </Step>
                     </ProgressBar>≈
@@ -50,12 +49,12 @@ export class Signup extends Component {
                   <div className='row personalInfo'  style={{marginTop:'5rem',marginLeft:'10rem'}}>
                       <div className='col-sm-12'>
                           <form className='infoForm'>
-                          <input name='name' type='text' className='input' placeholder='Name'></input><br/>
-                          <input name='email' type='email' className='input' placeholder='Email' style={{marginTop:'3rem'}}></input><br/>
-                          <input name='mobile' type='number' className='input' placeholder='Mobile No.' style={{marginTop:'3rem'}}></input><br/>
+                          <input name='Password' type='password' className='input' placeholder='Password'></input><br/>
+                          <input name='cnfPassword' type='password' className='input' placeholder='Confirm Password' style={{marginTop:'3rem'}}></input><br/>
+                          
                           <div className='row'>
                               <div className='col-sm-12' style={{textAlign:'center'}}>
-                              <button className='loginBtn'>Next</button>
+                              <button className='passBtn'>Next</button>
                               </div>
                           </div>
                             
@@ -70,4 +69,4 @@ export class Signup extends Component {
     }
 }
 
-export default Signup
+export default Password

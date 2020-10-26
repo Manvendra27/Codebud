@@ -46,6 +46,11 @@ export class InfoForm extends Component {
     render() {
         return (
             <div className='container'>
+              <div className='row'>
+                <div className='col-sm-12' style={{textAlign:'center', marginTop:'3rem'}}>
+                  <img src='avatar.svg' width='150px' alt='picture'/>
+                </div>
+              </div>
                 <div className='row'>
                     <div className='col-sm-12 formHeader'>
                         <h1>Complete Your Profile</h1>

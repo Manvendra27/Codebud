@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
-import Header from './HeaderComponent';
-import Home from './Home'
-import Myprofile from './Myprofile'
-import InfoForm from './InfoForm'
-import Skills from './Skills'
-import Signup from './Signup';
+import Header from './NAVBAR/HeaderComponent';
+import Home from './HOME/Home'
+import Myprofile from './MYPROFILE/Myprofile'
+import InfoForm from './INFO-FORM/InfoForm'
+import Skills from './SKILLS/Skills'
+import Signup from './SIGNUP/Signup';
+import Password from './SIGNUP/Password'
+import College from './SIGNUP/College'
 
 class Main extends Component {
     render() {
         return(
             <div>
-            <Header />
+            {/* <Header /> */}
             {/* <Home /> */}
             {/* <Skills /> */}
             {/* <Myprofile /> */}
-            <InfoForm />
+            {/* <InfoForm /> */}
             {/* <Signup /> */}
+            {/* <Password /> */}
+            <College />
             </div>
         )
     }
