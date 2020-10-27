@@ -1,0 +1,53 @@
+import React,{ Component } from 'react';
+// import { BrowserRouter } from 'react-router-dom';
+import Main from '../src/components/Maincomponent'
+import Signup from './components/SIGNUP/Signup'
+import Header from './components/NAVBAR/HeaderComponent';
+import Home from './components/HOME/Home'
+import Myprofile from './components/MYPROFILE/Myprofile'
+import InfoForm from './components/INFO-FORM/InfoForm'
+import Skills from './components/SKILLS/Skills'
+import Password from './components/SIGNUP/Password'
+import College from './components/SIGNUP/College'
+import Login from './components/LOGIN/login'
+import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+
+class App extends Component {
+  render () {
+
+  
+  return (
+
+    <BrowserRouter>
+     <div className="App">
+    <Route exact path="/(singup)" component={LoginContainer}/>
+    <Route component={DefaultContainer}/>
+
+    </div>
+    </BrowserRouter>
+   
+    const LoginContainer = () => (
+      <div className="container">
+        <Route exact path="/" component={Signup}/>
+        <Route path="/login" component={Login} />
+        <Route path="/password" component={Password} />
+        <Route path="/college" component={College} />
+      </div>
+
+    )
+    const DefaultContainer = () => (
+    <div>
+      <Header />
+      <Route path="/info" component={InfoForm} />
+      <Route path="/home" component={Home} />
+      <Route path="/skills" component={Skills} />
+      <Route path="/myprofile" component={Myprofile} />
+    </div>
+ )
+
+  );
+  }
+}
+
+export default App;

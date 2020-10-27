@@ -27,7 +27,7 @@ export class login extends Component {
                           
                           <div className='row'>
                               <div className='col-sm-12' style={{textAlign:'center'}}>
-                             <Link to='/'><button className='passBtn'>Next</button></Link>
+                             <Link to='/infoform'><button className='passBtn'>Next</button></Link>
                               </div>
                           </div>
                             

@@ -13,23 +13,18 @@ import { Switch, Route , Redirect} from 'react-router-dom'
 class Main extends Component {
     render() {
          return (
-
-         
             <div>
-            {/* {
-                location.pathname != '/' && location.pathname != 'password' && <Header />
-            } */}
-            {/* <Home /> */}
-            {/* <Skills /> */}
-            {/* <Myprofile /> */}
-            {/* <InfoForm /> */}
+                <Header/>
             <Switch>
                 <Route exact path='/' component={() => <Signup />} />
                 <Route exact path='/password' component={() => <Password />} />
                 <Route exact path='/college' component={() => <College />} />
                 <Route exact path='/login' component={() => <Login />} />
+                <Route exact path='/home' component={() => <Home />} />
+                <Route exact path='/skills' component={() => <Skills />} />
+                <Route exact path='/myprofile' component={() => <Myprofile />} />
+                <Route exact path='/infoform' component={() => <InfoForm />} />
             </Switch>
-            {/* <Login /> */}
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse, Button,FormGroup,Input,Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText} from 'reactstrap';
-
+import { Link } from 'react-router-dom';
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,10 +18,10 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="navitem">
-              <NavLink className="navlinks" >Home</NavLink>
+              <Link to='/home'><NavLink className="navlinks" >Home</NavLink></Link>
             </NavItem>
             <NavItem className="navitem">
-              <NavLink className="navlinks" >Skills</NavLink>
+            <Link to='/skills'><NavLink className="navlinks" >Skills</NavLink></Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle className="navlinks" nav caret style={{marginRight:'1rem'}}>
@@ -30,13 +30,13 @@ const Header = (props) => {
               <DropdownMenu right>
                   
                 <DropdownItem>
-                  My Profile
+                 <Link to='myprofile'> My Profile</Link>
                 </DropdownItem>
                 <DropdownItem>
                   Settings
                 </DropdownItem>
                 <DropdownItem>
-                  Log out
+                  <Link to='/'>Log out</Link>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

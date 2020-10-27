@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './InfoForm.css'
+import { Link } from 'react-router-dom'
 
 export class InfoForm extends Component {
     state = { values: [{ value: null }] };
@@ -115,7 +116,7 @@ export class InfoForm extends Component {
                                 </div>
                                 <div className='row' style={{textAlign:'center', marginTop:'3rem'}}>
                                   <div className='col-sm-12'>
-                                  <button className='submitBtn' type="submit" value="Submit">Submit</button>  
+                                  <Link to='/home'><button className='submitBtn' type="submit" value="Submit">Submit</button></Link>  
                                   </div>
                                 
                                 </div>
