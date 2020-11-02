@@ -70,6 +70,8 @@ export class Myprofile extends Component {
                                             <li>MongoDB</li>
                                         </ul>
                                         <br/>
+                                        <hr/>
+                                        <br/>
                                         <h3> Projects :</h3>
                                         <br/>
                                         <h5>&#8226; Project Title</h5>

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './Home.css'
+import Header from '../NAVBAR/HeaderComponent'
 
 export class Home extends Component {
     render() {
         return (
+            
             <div className='container'>
+                
                 <div className='Tiles'>
                     <div className='shadow p-3 mb-5 bg-white rounded profiles'>
                     <div className='row'>
